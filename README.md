@@ -3,7 +3,7 @@
 Context
 Access to safe drinking water is essential to health, a basic human right, and a component of effective policy for health protection. This is important as a health and development issue at a national, regional, and local level. In some regions, it has been shown that investments in water supply and sanitation can yield a net economic benefit, since the reductions in adverse health effects and health care costs outweigh the costs of undertaking the interventions.
 
-## Null hypothesis: 
+### Null hypothesis: 
 There is no relationship between optimal levels of chemical components contained in treated water and portability of consumed water.
 
 See if you can find any other trends in the data to predict portability of consumed water or find any clear indications of relationships between the predictors.
