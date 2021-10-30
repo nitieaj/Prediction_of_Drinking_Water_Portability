@@ -1,12 +1,12 @@
 ## Project_5-Prediction_of_Drinking_Water_Portability
-Description
+## Description
 Context
 Access to safe drinking water is essential to health, a basic human right, and a component of effective policy for health protection. This is important as a health and development issue at a national, regional, and local level. In some regions, it has been shown that investments in water supply and sanitation can yield a net economic benefit, since the reductions in adverse health effects and health care costs outweigh the costs of undertaking the interventions.
 
-Null hypothesis: There is no relationship between optimal levels of chemical components contained in treated water and portability of consumed water.
+## Null hypothesis: There is no relationship between optimal levels of chemical components contained in treated water and portability of consumed water.
 
 See if you can find any other trends in the data to predict portability of consumed water or find any clear indications of relationships between the predictors.
-Content
+## Content
 The drinkingwaterpotability.csv file contains water quality metrics for 3276 different water bodies.
 1.	pH value:
 PH is an important parameter in evaluating the acid-base balance of water. It is also the indicator of the acidic or alkaline condition of water status. WHO has recommended the maximum permissible limit of pH from 6.5 to 8.5. The current investigation ranges were 6.52–6.83 which are in the range of WHO standards.
