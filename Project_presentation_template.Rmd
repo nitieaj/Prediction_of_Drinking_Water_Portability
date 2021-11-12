@@ -76,3 +76,48 @@ library(gmodels)
 ```{r Working Directory}
 getwd()
 ```
+
+### Data Analysis
+Read in Dataset:
+```{r Dataset}
+dw.potability <- read.csv("./Data/drinking_water_potability.csv")
+
+head(dw.potability)
+
+kable(head(dw.potability), booktabs =T) %>% 
+  kable_styling(latex_options ="striped")
+  
+str(dw.potability)
+```
+
+Check for NA values:
+```{r NA Check}
+ph_na <- is.na(dw.potability$ph)
+table(ph_na)
+
+Hardness_na <- is.na(dw.potability$Hardness)
+table(Hardness_na)
+
+Solids_na <- is.na(dw.potability$Solids)
+table(Solids_na)
+
+Chloramines_na <- is.na(dw.potability$Chloramines)
+table(Chloramines_na)
+
+Sulfate_na <- is.na(dw.potability$Sulfate)
+table(Sulfate_na)
+
+Conductivity_na <- is.na(dw.potability$Conductivity)
+table(Conductivity_na)
+
+carbon_na <- is.na(dw.potability$Organic_carbon)
+table(carbon_na)
+
+Trihalomethanes_na <- is.na(dw.potability$Trihalomethanes)
+table(Trihalomethanes_na)
+
+Turbidity_na <- is.na(dw.potability$Turbidity)
+table(Turbidity_na)
+
+#[@tc] Variables that need to be cleaned: ph, Sulfate, Trihalomethanes
+```
