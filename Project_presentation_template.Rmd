@@ -147,3 +147,18 @@ na_omit_dw$potability_cat[na_omit_dw$Potability == 0] = "Not Potable"
 na_omit_dw$potability_cat <- as.factor(na_omit_dw$potability_cat)
 str(na_omit_dw)
 ```
+
+Numerical Variable Summaries:
+```{r Numerical Variable}
+summary(na_omit_dw$ph)
+summary(na_omit_dw$Hardness)
+summary(na_omit_dw$Solids)
+summary(na_omit_dw$Chloramines)
+summary(na_omit_dw$Sulfate)
+summary(na_omit_dw$Conductivity)
+summary(na_omit_dw$Organic_carbon)
+summary(na_omit_dw$Trihalomethanes)
+summary(na_omit_dw$Turbidity)
+
+str(na_omit_dw)
+```
