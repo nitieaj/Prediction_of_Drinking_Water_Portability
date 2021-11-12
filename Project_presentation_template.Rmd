@@ -121,3 +121,11 @@ table(Turbidity_na)
 
 #[@tc] Variables that need to be cleaned: ph, Sulfate, Trihalomethanes
 ```
+
+Omit NA values:
+```{r Omit NA}
+#Variables where there are NA values: ph, Sulfate, Trihalomethanes
+
+na_omit_dw <- na.omit(dw.potability)
+head(na_omit_dw, 10)
+```
