@@ -129,3 +129,21 @@ Omit NA values:
 na_omit_dw <- na.omit(dw.potability)
 head(na_omit_dw, 10)
 ```
+
+Categorical Variable: Potability
+Potability: Indicates if water is safe for human consumption where 1 means Potable and 0 means Not potable.
+```{r Categorical Variable}
+dw.potability$potability_cat[dw.potability$Potability == 1] = "Potable"
+dw.potability$potability_cat[dw.potability$Potability == 0] = "Not Potable"
+
+dw.potability$potability_cat <- as.factor(dw.potability$potability_cat)
+str(dw.potability)
+```
+
+```{r NA Omit Categorical Variable}
+na_omit_dw$potability_cat[na_omit_dw$Potability == 1] = "Potable"
+na_omit_dw$potability_cat[na_omit_dw$Potability == 0] = "Not Potable"
+
+na_omit_dw$potability_cat <- as.factor(na_omit_dw$potability_cat)
+str(na_omit_dw)
+```
